@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+logs/
+downloads/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.sum
+
+# Frontend
+node_modules/
+dist/
+.vite/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
