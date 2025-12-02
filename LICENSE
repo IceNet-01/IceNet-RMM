@@ -1,0 +1,227 @@
+ICENET RMM LICENSE
+
+Copyright (c) 2025 Northern Plains IT, LLC and OnyxVZ, LLC
+All Rights Reserved
+
+================================================================================
+
+DUAL LICENSE TERMS
+
+This software is available under two license options:
+1. NON-COMMERCIAL LICENSE (free)
+2. COMMERCIAL LICENSE (requires separate agreement)
+
+================================================================================
+
+1. NON-COMMERCIAL LICENSE
+
+Permission is granted free of charge for NON-COMMERCIAL purposes only, subject
+to the following conditions:
+
+NON-COMMERCIAL USE DEFINITION:
+"Non-Commercial" means use that is not primarily intended for or directed toward
+commercial advantage or monetary compensation. This includes, but is not limited
+to:
+  - Personal use
+  - Educational purposes
+  - Academic research
+  - Non-profit organization activities
+  - Evaluation and testing
+
+PERMITTED USES (NON-COMMERCIAL):
+Subject to the terms of this license, you may:
+  - Use, copy, and modify the Software for non-commercial purposes
+  - Deploy the Software in non-commercial environments
+  - Study and learn from the source code
+  - Contribute improvements back to the project
+
+RESTRICTIONS:
+You may NOT without a separate Commercial License:
+  - Use the Software for any commercial purpose
+  - Distribute, sublicense, or sell the Software or derivative works for
+    commercial purposes
+  - Use the Software to provide commercial services or support
+  - Use the Software in any manner that generates revenue or commercial advantage
+  - Deploy the Software in for-profit organizations or commercial environments
+  - Remove or alter any copyright, trademark, or attribution notices
+
+REQUIREMENTS:
+  - The above copyright notice and this license must be included in all copies
+    or substantial portions of the Software
+  - Any modifications must also be distributed under this Non-Commercial License
+  - You must comply with all third-party licenses of dependencies (see NOTICE file)
+
+================================================================================
+
+2. COMMERCIAL LICENSE
+
+Any use of the Software for commercial purposes requires a separate Commercial
+License agreement with Northern Plains IT, LLC and OnyxVZ, LLC.
+
+COMMERCIAL USE INCLUDES:
+  - Use in commercial products or services
+  - Providing commercial managed services, hosting, or support using the Software
+  - Distribution of the Software as part of a commercial offering
+  - Use by for-profit organizations in business operations
+  - Any use that generates revenue or provides commercial advantage
+  - Integration into commercial software or solutions
+
+For commercial licensing inquiries, please contact:
+  Northern Plains IT, LLC and OnyxVZ, LLC
+  [Contact information available at: https://github.com/IceNet-01]
+
+================================================================================
+
+THIRD-PARTY SOFTWARE AND DEPENDENCIES
+
+This Software incorporates or depends upon various third-party open source
+libraries and components, each subject to its own license terms:
+
+BACKEND DEPENDENCIES:
+  - Django (BSD-3-Clause)
+  - Django REST Framework (BSD-3-Clause)
+  - PostgreSQL client libraries (PostgreSQL License)
+  - Redis client libraries (BSD-3-Clause)
+  - NATS client libraries (Apache-2.0)
+  - Celery (BSD-3-Clause)
+  - Various Python packages (see requirements.txt)
+
+FRONTEND DEPENDENCIES:
+  - Vue.js (MIT)
+  - Various npm packages (see package.json)
+
+AGENT DEPENDENCIES:
+  - Go standard library (BSD-3-Clause)
+  - NATS.go (Apache-2.0)
+  - gopsutil (BSD-3-Clause)
+  - Various Go modules (see go.mod)
+
+INFRASTRUCTURE DEPENDENCIES:
+  - NATS Server (Apache-2.0)
+  - PostgreSQL (PostgreSQL License)
+  - Redis (BSD-3-Clause)
+
+Users must comply with all applicable third-party licenses. A complete list of
+dependencies and their licenses is maintained in the NOTICE file.
+
+NOTE: The use of these third-party dependencies does not change the licensing
+terms of IceNet RMM itself, but users must ensure compliance with each
+dependency's respective license terms.
+
+================================================================================
+
+DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+THE COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY
+OF THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+NON-INFRINGEMENT. THE COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY DAMAGES
+SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THIS
+SOFTWARE OR ITS DERIVATIVES.
+
+================================================================================
+
+LIMITATION OF LIABILITY
+
+IN NO EVENT WILL THE COPYRIGHT HOLDERS BE LIABLE TO YOU FOR ANY CONSEQUENTIAL,
+INCIDENTAL, INDIRECT, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF
+THE USE OR INABILITY TO USE THE SOFTWARE, INCLUDING BUT NOT LIMITED TO DAMAGES
+FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR
+ANY OTHER PECUNIARY LOSS, EVEN IF THE COPYRIGHT HOLDERS HAVE BEEN ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGES.
+
+================================================================================
+
+OWNERSHIP AND INTELLECTUAL PROPERTY
+
+Northern Plains IT, LLC and OnyxVZ, LLC retain all right, title, and interest,
+including all copyright, patent, trademark, trade secret, and other intellectual
+property rights, in and to the Software and any derivative works thereof.
+
+This License does not grant permission to use the trade names, trademarks,
+service marks, or product names of the copyright holders, except as required
+for reasonable and customary use in describing the origin of the Software.
+
+================================================================================
+
+TERMINATION
+
+This License is effective until terminated. Your rights under this License will
+terminate automatically without notice if you fail to comply with any term(s)
+of this License.
+
+Upon termination:
+  - You must cease all use of the Software
+  - You must destroy all copies of the Software in your possession or control
+  - Any sublicenses granted by you shall also terminate
+
+Termination of this License does not affect any rights or obligations that
+accrued prior to termination.
+
+================================================================================
+
+EXPORT COMPLIANCE
+
+You agree to comply with all applicable export and import control laws and
+regulations in your use of the Software. You shall not export, re-export, or
+transfer the Software, directly or indirectly, to any prohibited country or
+entity, or for any prohibited end-use.
+
+================================================================================
+
+GOVERNING LAW
+
+This License shall be governed by and construed in accordance with the laws of
+the jurisdiction in which Northern Plains IT, LLC is registered, without regard
+to its conflict of law provisions.
+
+================================================================================
+
+ENTIRE AGREEMENT
+
+This License constitutes the entire agreement between you and the copyright
+holders regarding the Software and supersedes all prior or contemporaneous
+understandings regarding such subject matter.
+
+================================================================================
+
+MODIFICATIONS TO THIS LICENSE
+
+The copyright holders reserve the right to modify this License at any time.
+Any such modifications will be effective upon posting of the modified License.
+Your continued use of the Software following such posting constitutes your
+acceptance of the modified License.
+
+================================================================================
+
+SEVERABILITY
+
+If any provision of this License is held to be unenforceable or invalid, such
+provision shall be changed and interpreted to accomplish the objectives of such
+provision to the greatest extent possible under applicable law, and the
+remaining provisions shall continue in full force and effect.
+
+================================================================================
+
+CONTACT INFORMATION
+
+For licensing inquiries, including commercial licensing:
+
+Northern Plains IT, LLC and OnyxVZ, LLC
+GitHub: https://github.com/IceNet-01
+
+For technical support and contributions:
+Project Repository: https://github.com/IceNet-01/IceNet-RMM
+
+================================================================================
+
+License Version: 1.0
+Last Updated: 2025-12-02
+Software: IceNet RMM (Remote Monitoring and Management)

@@ -1,0 +1,260 @@
+ICENET RMM - THIRD-PARTY NOTICES AND INFORMATION
+
+This file contains notices and information required by libraries that IceNet RMM
+uses under various open source licenses.
+
+================================================================================
+
+IceNet RMM itself is licensed under a Dual License (Non-Commercial/Commercial).
+See LICENSE file for details.
+
+Copyright (c) 2025 Northern Plains IT, LLC and OnyxVZ, LLC
+
+================================================================================
+
+THIRD-PARTY DEPENDENCIES
+
+The following third-party software components are used by IceNet RMM. Each
+component is subject to its own license terms.
+
+================================================================================
+
+BACKEND DEPENDENCIES (Python)
+
+--------------------------------------------------------------------------------
+Django
+License: BSD-3-Clause
+Website: https://www.djangoproject.com/
+Copyright: Django Software Foundation
+
+--------------------------------------------------------------------------------
+Django REST Framework
+License: BSD-3-Clause
+Website: https://www.django-rest-framework.org/
+Copyright: Encode OSS Ltd.
+
+--------------------------------------------------------------------------------
+Django Channels
+License: BSD-3-Clause
+Website: https://channels.readthedocs.io/
+Copyright: Django Software Foundation
+
+--------------------------------------------------------------------------------
+PostgreSQL (psycopg2)
+License: LGPL-3.0 (with exceptions)
+Website: https://www.psycopg.org/
+Copyright: Federico Di Gregorio
+
+--------------------------------------------------------------------------------
+Redis Python Client
+License: MIT
+Website: https://github.com/redis/redis-py
+Copyright: Redis contributors
+
+--------------------------------------------------------------------------------
+Celery
+License: BSD-3-Clause
+Website: https://docs.celeryq.dev/
+Copyright: Ask Solem & contributors
+
+--------------------------------------------------------------------------------
+NATS Python Client
+License: Apache-2.0
+Website: https://github.com/nats-io/nats.py
+Copyright: The NATS Authors
+
+--------------------------------------------------------------------------------
+cryptography
+License: Apache-2.0 OR BSD-3-Clause
+Website: https://cryptography.io/
+Copyright: Individual contributors
+
+--------------------------------------------------------------------------------
+django-otp (MFA Support)
+License: BSD-2-Clause
+Website: https://github.com/django-otp/django-otp
+Copyright: Peter Sagerson
+
+================================================================================
+
+FRONTEND DEPENDENCIES (JavaScript/Node.js)
+
+--------------------------------------------------------------------------------
+Vue.js 3
+License: MIT
+Website: https://vuejs.org/
+Copyright: Yuxi (Evan) You
+
+--------------------------------------------------------------------------------
+Vue Router
+License: MIT
+Website: https://router.vuejs.org/
+Copyright: Vuejs contributors
+
+--------------------------------------------------------------------------------
+Pinia (State Management)
+License: MIT
+Website: https://pinia.vuejs.org/
+Copyright: Eduardo San Martin Morote
+
+--------------------------------------------------------------------------------
+Axios
+License: MIT
+Website: https://axios-http.com/
+Copyright: Matt Zabriskie
+
+--------------------------------------------------------------------------------
+Chart.js
+License: MIT
+Website: https://www.chartjs.org/
+Copyright: Chart.js contributors
+
+--------------------------------------------------------------------------------
+Vite
+License: MIT
+Website: https://vitejs.dev/
+Copyright: Evan You
+
+--------------------------------------------------------------------------------
+Tailwind CSS
+License: MIT
+Website: https://tailwindcss.com/
+Copyright: Tailwind Labs
+
+================================================================================
+
+AGENT DEPENDENCIES (Go)
+
+--------------------------------------------------------------------------------
+NATS.go
+License: Apache-2.0
+Website: https://github.com/nats-io/nats.go
+Copyright: The NATS Authors
+
+Permission is hereby granted under the Apache License, Version 2.0.
+See: https://www.apache.org/licenses/LICENSE-2.0
+
+--------------------------------------------------------------------------------
+gopsutil
+License: BSD-3-Clause
+Website: https://github.com/shirou/gopsutil
+Copyright: WAKAYAMA Shirou and contributors
+
+--------------------------------------------------------------------------------
+Cobra (CLI framework)
+License: Apache-2.0
+Website: https://github.com/spf13/cobra
+Copyright: Steve Francia
+
+--------------------------------------------------------------------------------
+Viper (Configuration)
+License: MIT
+Website: https://github.com/spf13/viper
+Copyright: Steve Francia
+
+--------------------------------------------------------------------------------
+Zap (Logging)
+License: MIT
+Website: https://github.com/uber-go/zap
+Copyright: Uber Technologies, Inc.
+
+================================================================================
+
+INFRASTRUCTURE COMPONENTS
+
+--------------------------------------------------------------------------------
+PostgreSQL Database
+License: PostgreSQL License (similar to BSD/MIT)
+Website: https://www.postgresql.org/
+Copyright: PostgreSQL Global Development Group
+
+The PostgreSQL License is an open-source license approved by OSI.
+
+--------------------------------------------------------------------------------
+Redis
+License: BSD-3-Clause (Redis Source Available License 2.0 for recent versions)
+Website: https://redis.io/
+Copyright: Redis Ltd.
+
+Note: Redis 7.x uses RSALv2/SSPLv1. Users should verify license compatibility.
+
+--------------------------------------------------------------------------------
+NATS Server
+License: Apache-2.0
+Website: https://nats.io/
+Copyright: The NATS Authors
+
+--------------------------------------------------------------------------------
+Nginx
+License: BSD-2-Clause
+Website: https://nginx.org/
+Copyright: Igor Sysoev, Nginx, Inc.
+
+================================================================================
+
+FULL LICENSE TEXTS
+
+For complete license texts of the above dependencies, please refer to:
+
+- Apache-2.0: https://www.apache.org/licenses/LICENSE-2.0
+- MIT: https://opensource.org/licenses/MIT
+- BSD-3-Clause: https://opensource.org/licenses/BSD-3-Clause
+- BSD-2-Clause: https://opensource.org/licenses/BSD-2-Clause
+- PostgreSQL License: https://www.postgresql.org/about/licence/
+
+================================================================================
+
+ADDITIONAL DEPENDENCIES
+
+IceNet RMM uses numerous additional third-party libraries and tools. For a
+complete and up-to-date list of dependencies:
+
+- Backend: See backend/requirements.txt
+- Frontend: See frontend/package.json and package-lock.json
+- Agent: See agent/go.mod and agent/go.sum
+
+Each dependency maintains its own license terms. Users are responsible for
+ensuring compliance with all applicable licenses when using, modifying, or
+distributing IceNet RMM.
+
+================================================================================
+
+COMPLIANCE REQUIREMENTS
+
+Users of IceNet RMM must:
+
+1. Comply with all third-party license terms listed above
+2. Include required copyright notices when distributing the software
+3. Provide appropriate attribution for third-party components
+4. Respect copyleft requirements (if any) of dependencies
+5. Not remove or modify existing license notices
+
+For GPL/LGPL components (if any), source code is available from the respective
+project repositories listed above.
+
+================================================================================
+
+REPORTING LICENSE ISSUES
+
+If you believe any component is incorrectly licensed or attributed, please
+report it by opening an issue at:
+
+https://github.com/IceNet-01/IceNet-RMM/issues
+
+We are committed to maintaining accurate license information and proper
+attribution for all third-party software.
+
+================================================================================
+
+EXPORT CONTROL
+
+Some cryptographic components may be subject to export control regulations.
+Users are responsible for compliance with all applicable export control laws
+and regulations.
+
+================================================================================
+
+Last Updated: 2025-12-02
+
+This NOTICE file will be updated as dependencies change. Always refer to the
+latest version in the repository.

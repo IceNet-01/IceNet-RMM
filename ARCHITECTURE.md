@@ -591,4 +591,10 @@ See CONTRIBUTING.md for development guidelines.
 
 ## License
 
-To be determined (suggest AGPL-3.0 for open-source)
+IceNet RMM is licensed under a Dual License model:
+- **Non-Commercial License**: Free for personal, educational, research, and non-profit use
+- **Commercial License**: Required for commercial use (contact for licensing)
+
+Copyright (c) 2025 Northern Plains IT, LLC and OnyxVZ, LLC. All Rights Reserved.
+
+See LICENSE file for complete terms.

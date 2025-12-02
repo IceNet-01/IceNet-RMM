@@ -4,7 +4,7 @@
 
 **A modern, secure, open-source RMM solution for Windows and Linux**
 
-[![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Dual%20(Non--Commercial%2FCommercial)-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![Go](https://img.shields.io/badge/go-1.21+-00ADD8.svg)](https://golang.org/)
 [![Vue](https://img.shields.io/badge/vue-3.x-4FC08D.svg)](https://vuejs.org/)
@@ -246,9 +246,23 @@ go build
 
 ## License
 
-IceNet RMM is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+IceNet RMM is licensed under a **Dual License** model:
 
-This means you can use, modify, and distribute this software, but if you run a modified version as a service, you must make your modifications available under the same license.
+### Non-Commercial License (Free)
+Free for personal, educational, research, non-profit, and evaluation use. You can use, study, and modify the software for non-commercial purposes.
+
+### Commercial License (Paid)
+Required for any commercial use, including:
+- Use in commercial products or services
+- Providing managed services or hosting
+- Use by for-profit organizations
+- Any revenue-generating activities
+
+For commercial licensing inquiries, contact Northern Plains IT, LLC and OnyxVZ, LLC.
+
+**Copyright (c) 2025 Northern Plains IT, LLC and OnyxVZ, LLC. All Rights Reserved.**
+
+See the [LICENSE](LICENSE) file for complete terms and the [NOTICE](NOTICE) file for third-party attributions.
 
 ## Acknowledgments
 
